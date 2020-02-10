@@ -905,7 +905,7 @@ Limitations under the License.
 
 --------------------------------------------------------------------
 Dependency: github.com/containerd/containerd
-Version: v1.3.0
+Version: v1.3.3
 License type (autodetected): Apache-2.0
 ./vendor/github.com/containerd/containerd/LICENSE:
 --------------------------------------------------------------------
@@ -974,22 +974,6 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
---------------------------------------------------------------------
-Dependency: github.com/coreos/go-systemd
-Overwrite: github.com/coreos/go-systemd/v22
-Overwrite-Version: v22.0.0
-License type (autodetected): Apache-2.0
-./vendor/github.com/coreos/go-systemd/LICENSE:
---------------------------------------------------------------------
-Apache License 2.0
-
--------NOTICE-----
-CoreOS Project
-Copyright 2018 CoreOS, Inc
-
-This product includes software developed at CoreOS, Inc.
-(http://www.coreos.com/).
 
 --------------------------------------------------------------------
 Dependency: github.com/coreos/go-systemd/v22
@@ -1231,7 +1215,7 @@ See also https://www.apache.org/dev/crypto.html and/or seek legal counsel.
 
 --------------------------------------------------------------------
 Dependency: github.com/docker/go-connections
-Version: v0.3.0
+Version: v0.4.0
 License type (autodetected): Apache-2.0
 ./vendor/github.com/docker/go-connections/LICENSE:
 --------------------------------------------------------------------
@@ -1267,6 +1251,8 @@ See also https://www.apache.org/dev/crypto.html and/or seek legal counsel.
 --------------------------------------------------------------------
 Dependency: github.com/docker/go-plugins-helpers
 Revision: 1e6269c305b8
+Overwrite: github.com/elastic/go-plugins-helpers
+Overwrite-Revision: bdf17607b79f
 License type (autodetected): Apache-2.0
 ./vendor/github.com/docker/go-plugins-helpers/LICENSE:
 --------------------------------------------------------------------
@@ -1295,7 +1281,7 @@ See also https://www.apache.org/dev/crypto.html and/or seek legal counsel.
 
 --------------------------------------------------------------------
 Dependency: github.com/docker/go-units
-Version: v0.3.2
+Version: v0.4.0
 License type (autodetected): Apache-2.0
 ./vendor/github.com/docker/go-units/LICENSE:
 --------------------------------------------------------------------
@@ -2427,8 +2413,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------
 Dependency: github.com/gogo/protobuf
-Version: v1.2.2
-Revision: 4c00d2f19fb9
+Version: v1.3.1
 License type (autodetected): BSD-3-Clause
 ./vendor/github.com/gogo/protobuf/LICENSE:
 --------------------------------------------------------------------
@@ -4039,7 +4024,8 @@ Copyright 2012 Matt T. Proud (matt.proud@gmail.com)
 
 --------------------------------------------------------------------
 Dependency: github.com/Microsoft/go-winio
-Version: v0.4.14
+Version: v0.4.15
+Revision: fc70bd9a86b5
 License type (autodetected): MIT
 ./vendor/github.com/Microsoft/go-winio/LICENSE:
 --------------------------------------------------------------------
@@ -4069,7 +4055,6 @@ SOFTWARE.
 --------------------------------------------------------------------
 Dependency: github.com/Microsoft/hcsshim
 Version: v0.8.7
-Revision: 84b0c364e1e3
 License type (autodetected): MIT
 ./vendor/github.com/Microsoft/hcsshim/LICENSE:
 --------------------------------------------------------------------
@@ -5176,7 +5161,7 @@ THE SOFTWARE.
 
 --------------------------------------------------------------------
 Dependency: golang.org/x/crypto
-Revision: e9b2fee46413
+Revision: c9f3fb736b72
 License type (autodetected): BSD-3-Clause
 ./vendor/golang.org/x/crypto/LICENSE:
 --------------------------------------------------------------------
@@ -5278,7 +5263,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------
 Dependency: golang.org/x/net
-Revision: ef20fe5d7933
+Revision: 16171245cfb2
 License type (autodetected): BSD-3-Clause
 ./vendor/golang.org/x/net/LICENSE:
 --------------------------------------------------------------------
@@ -5635,7 +5620,7 @@ Apache License 2.0
 
 --------------------------------------------------------------------
 Dependency: google.golang.org/grpc
-Version: v1.25.1
+Version: v1.27.1
 License type (autodetected): Apache-2.0
 ./vendor/google.golang.org/grpc/LICENSE:
 --------------------------------------------------------------------
