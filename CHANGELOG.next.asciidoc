@@ -125,6 +125,7 @@ https://github.com/elastic/beats/compare/v7.0.0-alpha2...master[Check the HEAD d
 - Add support for multiple password in redis output. {issue}16058[16058] {pull}16206[16206]
 - Windows .exe files now have embedded file version info. {issue}15232[15232]t
 - Remove experimental flag from `setup.template.append_fields` {pull}16576[16576]
+- Add `aws_ec2` provider for autodiscover. {issue}12518[12518] {pull}14823[14823]
 
 *Auditbeat*
 
@@ -188,6 +189,7 @@ https://github.com/elastic/beats/compare/v7.0.0-alpha2...master[Check the HEAD d
 - Add filtering option for prometheus collector. {pull}16420[16420]
 - Add metricsets based on Ceph Manager Daemon to the `ceph` module. {issue}7723[7723] {pull}16254[16254]
 - Release `statsd` module as GA. {pull}16447[16447] {issue}14280[14280]
+- Add kubernetes storage class support via kube-state-metrics. {pull}16145[16145]
 
 *Packetbeat*
 
